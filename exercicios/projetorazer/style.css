@@ -1,0 +1,220 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+:root {
+    --cor01:#44D62C;
+    --cor02:#323232;
+    --cor03:#131313;
+    --cor04:#090909;
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-titulos:'Prompt', sans-serif;
+    --fonte-razer:'Comfortaa', cursive;
+    
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor03);
+    text-align: justify;
+    text-indent: 2em;
+}
+
+h1, h2, h3 {
+    font-size: 2em;
+    font-family: var(--fonte-razer);
+    color: var(--cor01);
+    text-shadow: 2px 2px 2px var(--cor02);
+}
+
+.cabecalho-principal {
+    margin: -2px auto;
+    position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+/* Formatacao Imagens */
+
+.logo-cima {
+    position: absolute;
+    top: 10px;
+    left: 175px;
+}
+
+.banner-principal {
+    width: 100%;
+    position: relative;
+}
+
+.logo-razer {
+    position: absolute;
+    width: 18%;
+    top: -100px;
+    right: 70px;
+}
+
+.logo-mini {
+    float: left;
+    padding: 20px;
+}
+/* Formatacao imagens - END*/
+.principal {
+    margin: -3px auto;
+    width: 940px;
+    background: var(--cor04);
+    padding: 50px 30px 30px 30px;
+    color: white;
+    font-family: var(--fonte-razer);
+    clear: left;
+    line-height: 1.5;
+}
+
+.h1-razer {
+    position: absolute;
+    font-family: var(--fonte-razer);
+    color: var(--cor01);
+    font-size: 3em;
+    text-shadow: 1px 2px 1px var(--cor02);
+}
+/*Formatacao Navegador*/
+nav {
+    position: absolute;
+    top: -35px;
+}
+
+nav li {
+    display: inline;
+    padding: 0px 50px 0px 0px;
+    text-shadow: 1px 1px 0px #44D62C;
+}
+
+nav a {
+    font-family: var(--fonte-razer);
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: var(--cor01);
+    font-size: 33px;
+    transform: scale();
+}
+
+nav a:active {
+    color: rgb(255, 0, 64);
+}
+/*Formatacao Formulario*/
+
+form {
+    margin: 10px 0;
+    border: 1px solid white;
+    background-color: var(--cor03);
+    border-radius: 20px;
+}
+
+form label, form input {
+    display: block;
+    margin: 2px 4px 10px ;
+    font-size: 1em;
+}
+
+.checkbox {
+    margin: 0px 4px;
+}
+
+.submit {
+    padding: 10px;
+    background: #43d62c98;
+    color: white;
+    border: 2px solid black;
+    font-family: var(--fonte-razer);
+    border-radius: 10px;
+}
+
+.submit:active {
+    background: #43d62c41;
+    transform: perspective(1.05);
+}
+
+form input:hover {
+    border: 2px solid red;
+}
+
+/*Formatacao - Tabela Horarios*/
+ 
+table {
+    background: var(--cor03);
+    margin: 10px 10px 10px 40px;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+table th {
+    background: var(--cor02);
+    border-bottom: 2px solid white;
+    border-radius: ;
+}
+
+table tr {
+    padding: 10px;
+    background-image: red;
+}
+
+tr:hover {
+    background: var(--cor01);
+    transition: 0.7s;
+}
+
+/*Formatacao Rodape*/
+
+footer {
+    background: #43d62c9d;
+    margin: auto;
+    text-align: center;
+    color: black;
+    padding: 5px;
+    border-top: 1px solid var(--cor01);
+    font-family: var(--fonte-razer);
+    font-size: 0.8em;
+    border-top: 2px solid white;
+}
+
+footer > p {
+    padding: 9px;
+    display: inline;
+}
+
+footer img {
+    width: 20px;
+}
+
+footer img:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+/*Formato Celular*/
+
+@media screen and (max-width: 480px) {
+
+    .h1-razer, .cabecalho-principal, .principal, .rodape {
+        width: auto;
+    }
+
+    nav {
+        position: static;
+        padding: 1px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+}

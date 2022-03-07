@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Scary';
+    src: url(Font/halloweek.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    /* Tipos de format() 
+        *opentype (otg)
+        *truetype (ttf)
+        * embedded - opentype
+        *truetype-att (Apple Advanced 
+Typography)
+        *svg
+    */
+
+}
+body {
+    font-family: 'Scary', Helvetica, 
+sans-serif;
+    background-color: #282E33;
+    color: white;
+    text-indent: 50px;
+}
+
+h1 {
+    font-family: 'Scary', Times, serif
+    font-size: 3em;
+    font-weight: normal;
+    color: #FF3838;
+}
+
+h2 {
+    font-family: 'Scary', Times, serif;
+    font-size: 2em;
+    font-weight: normal;
+    color: #FF3838;
+}
+
+
+ /* CSS MENU */
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #164852;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FF3838;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 2s;
+}
+
+li a#poster:hover {
+    background-color: #b2c1c7;
+    transition: 2s;
+}
+
+/* Textos*/
+
+.fundo1 {
+    background-color: #2a363b;
+    border-radius:5pt;
+    padding: 40px;
+}
+
+.fundo2 {
+    background-color: #164852;
+    border-radius:5pt;
+    padding: 40px;           
+}
+
+/*CSS IMAGE*/
+
+.posters {
+    border: 4px solid rgb(212, 210, 210);
+    height: 300px;
+    position: relative;
+    left: 0;
+}
+
+.posters:hover {
+    background-color: rgb(226, 212, 212);
+    transition: 3s;
+    
+}
+
+/* CSS MAP GOOGLE*/
+
+iframe {
+    border: 4px solid #ff3838b9;
+    box-shadow: 4px 4px 4px #da2f2fb7;
+}

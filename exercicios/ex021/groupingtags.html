@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags - Semanticas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: slategray;
+        }
+
+        header {
+            background-color: wheat;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+
+        nav {
+            background-color: rgb(81, 93, 105);
+            padding: 3px;
+            box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.582);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.699);
+        }
+        nav >a:hover {
+            background-color: rgb(148, 67, 67);
+        }
+        main {
+            background-color: wheat;
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        
+        article {
+            background-color: wheat;
+            
+        }
+
+        article > aside {
+            background-color: wheat;
+            
+        }
+
+        footer {
+            background-color: black;
+            color: wheat;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <h1>Esportes Politica Tecnologia</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi minima, quo laboriosam, maxime, cum ducimus culpa delectus non ullam suscipit natus dolores quod cumque? Voluptas, atque! Saepe unde consequuntur deleniti.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <aside>
+                    <h2>Noticia sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam possimus error impedit voluptatum? Commodi laborum inventore pariatur officiis voluptas, a laudantium est, deserunt doloremque perferendis dolorum atque sint necessitatibus! Eaque!</p>
+                </aside>
+                <aside>
+                    <h2>Testando</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas blanditiis officiis pariatur magnam similique 
+                    nesciunt, asperiores vero voluptas possimus distinctio. Excepturi facilis aliquid pariatur sunt quos numquam saepe 
+                    laborum fugit!
+                    </p>
+                </aside>
+            </article>
+            <article>
+                
+            </article>
+        </section>
+        <section id="">
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Joao Paulo e Guanabara</p>
+    </footer>
+</body>
+</html>

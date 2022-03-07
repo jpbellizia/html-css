@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Idroid';
+    src: url(fontes/idroid.otf);
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500&display=swap);
+    
+body {
+    background-color: #84e1ad;
+    margin: auto;
+    text-align: center;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-indent: 50px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1.inicial {
+    font-family: 'Idroid';
+    font-size: 3em;
+    color: #164e2f;
+    background-image: linear-gradient(to right, #40e98c, #ffffff);
+    text-align: left;
+    border-radius: 10pt;
+}
+
+h2 {
+    font-family: 'Idroid';
+    font-size: 2em;
+    color: #164e2f;
+    background-image: linear-gradient(to right, #40e98c96, #ffffff);
+    text-align: left;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10pt;
+}
+
+h3 {
+    font-family: 'Idroid';
+    color: #164e2f;
+    font-size: 1em;
+    background-image: linear-gradient(to left, #40e98c, #ffffff);
+    text-align: left;
+    border-radius: 10pt;
+}
+
+main {
+    background-color: white;
+    padding: 0px 10px 10px 10px;
+    margin: 10px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #40e98c, #164e2f);
+    text-align: center;
+    margin: -20px;
+    padding: 5px;
+    box-shadow: 1px 1px 3px 1px black;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: white;
+}
+
+nav#menu {
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: white;
+}
+
+footer > p {
+    text-align: center;
+    color: #ffffff;
+    background-color: #164e2f;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
